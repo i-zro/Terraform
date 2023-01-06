@@ -1,2 +1,2 @@
 # Terraform
-Terraform 만들어 보고 싶은 것들 만들기용
+- 23.01.05.aws-key-pair branch : aws key pair 생성 실습 브랜치
