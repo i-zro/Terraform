@@ -4,3 +4,4 @@ aws-key-pair/keys/tf-key-pair
 *.backup
 aws-key-pair/.terraform/providers/registry.terraform.io/hashicorp/aws/4.49.0/darwin_arm64/terraform-provider-aws_v4.49.0_x5
 aws-key-pair/.terraform.lock.hcl
+*.hcl
