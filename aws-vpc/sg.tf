@@ -1,11 +1,11 @@
-resource "aws_security_group" "allow_tls" {
-  name        = "naa0-k8s-sg"
-  description = "k8s용 보안그룹"
+resource "aws_security_group" "naa0-k8s-sg" {
+  name        = "naa0-k8s-sg-1"
+  description = "sg-for-k8s"
   vpc_id      = aws_vpc.main.id
 
   ingress {
-		from_port       = 0
-		to_port         = 0
+		from_port       = 22 
+		to_port         = 22
 		protocol        = "tcp"
 		cidr_blocks     = ["0.0.0.0/0"]
 	}
@@ -19,6 +19,6 @@ resource "aws_security_group" "allow_tls" {
   }
 
   tags = {
-    Name = "allow_tls"
+    Name = "naa0-k8s-sg"
   }
 }
