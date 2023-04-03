@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 
 *.backup
 *.tfstate
 *.0_x5
+=======
+*.pub
+aws-key-pair/keys/tf-key-pair
+*.tfstate
+*.backup
+aws-key-pair/.terraform/providers/registry.terraform.io/hashicorp/aws/4.49.0/darwin_arm64/terraform-provider-aws_v4.49.0_x5
+aws-key-pair/.terraform.lock.hcl
+>>>>>>> 482a610f35a556583b5df4722441680f513f5b32
 *.hcl
 *.0_x5
 *.swp
