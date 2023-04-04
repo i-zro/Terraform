@@ -17,4 +17,3 @@
 
 # share 폴더 파일
 - s3-backend.tf : state 저장할 s3 지정 테라폼 파일
->>>>>>> e8fa1c9 (README에 23.04.03.aws-iam 브랜치 설명 추가)
