@@ -1,4 +1,5 @@
 variable "profile" {
+  default = "uplus"
 }
 
 variable "aws_region" {

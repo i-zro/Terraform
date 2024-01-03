@@ -1,4 +1,4 @@
 provider "aws" {
-	profile=  var.profile
-	region =  var.aws_region #seoul region
+  profile=  "uplus"
+  region =  var.aws_region #seoul region
 }
